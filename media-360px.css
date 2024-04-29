@@ -5,8 +5,14 @@
         justify-content: center;
     }
     .main-nav .logo h2{
-        font-size: 30px;
+        font-size: 25px;
        letter-spacing: 3px;
+    }
+    .main-nav .wlc-msg p{
+        font-size: 10px;
+    }
+    .main-nav .wlc-msg p span{
+        font-size: 10px
     }
     nav{
         height: 3rem;
