@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octopus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-700px.css">
+    <link rel="stylesheet" href="media-600px.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+
+   <header>
+        <div class="info-links">
+            <a href="">Need help?</a>
+            <p>call us <span>1-22-2486768</span></p>
+        </div>
+        <div class="top-nav">
+            <a href="">Register</a>
+            <a href="">Login</a>
+            <a href="">Delivery</a>
+            <a href="">Checkout</a>
+            <a href="">My Account</a>
+        </div>
+   </header>
+
+   <div class="main-nav">
+        <div class="logo">
+            <h2><span>T</span>RENDIFY HEAVEN</h2>
+        </div>
+        <div class="wlc-msg">
+            <p>Welcome to our Online Store!
+                <span>
+                    <a href="">Cart</a>
+                </span>
+            </p>
+            <p>0 items(1) - $0.00</p>
+            <i class="fa-solid fa-caret-down" onclick="opencartBar()"></i>
+        </div>
+        <div class="cart-bar" id="cartBar">
+            <div class="cls-icon">
+                <i class="fa-solid fa-xmark" onclick="closecartBar()"></i>
+            </div>
+            <div class="cart-info">
+                <h3>Items</h3>
+                <h3>Price</h3>
+            </div>
+            <div class="products">
+                <div class="cart-item">
+                    <h5>Milky Donuts</h5>
+                    <h5>Bags</h5>
+                </div>
+                <div class="cart-price">
+                    <h4>$50</h4>
+                    <h4>$100</h4>
+                </div>
+            </div>
+            <button type="button"><a href="">go to checkout</a></button>
+        </div>
+   </div>
+
+   <nav>
+        <ul>
+            <li><a href="" class="active">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">DELIVERY</a></li>
+            <li><a href="">NEWS</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+   </nav>
+
+   <i class="fa-solid fa-bars" id="category-icon"></i>
+
+   <div class="container">
+        <div class="category">
+            <p>CATEGORIES</p>
+            <ul>
+                <li><a href="">&RightArrow; MOBILE PHONES</a></li>
+                <li><a href="">&RightArrow; DESKTOP</a></li>
+                <li><a href="">&RightArrow; LAPTOP</a></li>
+                <li><a href="">&RightArrow; ACCESSORIES</a></li>
+                <li><a href="">&RightArrow; BRANDS</a></li>
+                <li><a href="">&RightArrow; SPORTS & FITNESS</a></li>
+                <li><a href="">&RightArrow; FOOTWEAR</a></li>
+                <li><a href="">&RightArrow; JEWELLRY</a></li>
+                <li><a href="clothing/cloth.html">&RightArrow; CLOTHING</a></li>
+                <li><a href="">&RightArrow; HOME DECOR & KITCHEN</a></li>
+                <li><a href="">&RightArrow; BEAUTY & HEALTHCARE</a></li>
+                <li><a href="">&RightArrow; TOYS, WIPES & DOLLS</a></li>
+            </ul>
+        </div>
+        <div class="hero-banner">
+            <!-- <div class="txt-content">
+                <h2>CLEARANCE</h2>
+                <h1>SALE</h1>
+                <h3>UP To 40% OFF</h3>
+                <p>Get to Know More About Our Memorable Services</p>
+           <a href="">Shop Now</a>
+            </div> -->
+            <a href=""><img src="images/CLEARANCE.png" alt=""></a>
+            <!-- <a href=""><img src="images/portable.png" alt=""></a> -->
+        </div>
+   </div>
+
+   <div class="title">
+        <h3>NEW PRODUCTS</h3>
+        <a href="">See all Products <i class="fa-solid fa-caret-right"></i></a>
+   </div>
+
+   <div class="new-product-cart">
+        <div class="recent">
+            <img src="images/download (5).jpeg" alt="">
+            <p>LOREM IPSUM IS SIMPLY</p>
+            <div class="c-t-a">
+                <p>$620.87</p>
+                <a href="">Add to Cart</a>
+            </div>
+        </div>
+        <div class="recent">
+            <img src="images/images (4).jpeg" alt="">
+            <p>LOREM IPSUM IS SIMPLY</p>
+            <div class="c-t-a">
+                <p>$899.75</p>
+                <a href="">Add to Cart</a>
+            </div>
+        </div>
+        <div class="recent">
+            <img src="images/images (4).jpeg" alt="">
+            <p>LOREM IPSUM IS SIMPLY</p>
+            <div class="c-t-a">
+                <p>$599.00</p>
+                <a href="">Add to Cart</a>
+            </div>
+        </div>
+        <div class="recent">
+            <img src="images/images (4).jpeg" alt="">
+            <p>LOREM IPSUM IS SIMPLY</p>
+            <div class="c-t-a">
+                <p>$679.87</p>
+                <a href="">Add to Cart</a>
+            </div>
+        </div>
+        <div class="recent">
+            <img src="images/download (5).jpeg" alt="">
+            <p>LOREM IPSUM IS SIMPLY</p>
+            <div class="c-t-a">
+                <p>$779.87</p>
+                <a href="">Add to Cart</a>
+            </div>
+        </div>
+   </div>
+
+   <div class="title">
+        <h3>FEATURE PRODUCTS</h3>
+        <a href="">See all Products <i class="fa-solid fa-caret-right"></i></a>
+    </div>
+
+    <div class="featured-product-cart">
+        <div class="feature">
+            <a href=""><img src="images/images (3).jpeg" alt=""></a>
+            <h4>Full Width Screen</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad esse recusandae possimus, at maxime sequi excepturi aut dolore dignissimos tempora veritatis libero rerum laborum, et doloribus? Quam distinctio esse illum?</p>
+            <h5>$1000</h5>
+            <button type="button"><a href="">Buy Now</a></button>
+        </div>
+        <div class="feature">
+            <a href=""><img src="images/fire-tv.webp" alt="" id="fire-tv"></a>
+            <h4>Wheel Time</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad esse recusandae possimus, at maxime sequi excepturi aut dolore dignissimos tempora veritatis libero rerum laborum, et doloribus? Quam distinctio esse illum?</p>
+            <h5>$10,000</h5>
+            <button type="button"><a href="">Buy Now</a></button>
+        </div>
+        <div class="feature">
+            <a href=""><img src="images/download (5).jpeg" alt="" id="fire-tv"></a>
+            <h4>Wheel Time</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad esse recusandae possimus, at maxime sequi excepturi aut dolore dignissimos tempora veritatis libero rerum laborum, et doloribus? Quam distinctio esse illum?</p>
+            <h5>$10,000</h5>
+            <button type="button"><a href="">Buy Now</a></button>
+        </div>
+    </div>
+
+
+    <footer>
+  
+        <div class="menu-link">
+            <div class="menu">
+              <p id="big">Here to help</p>
+              <a href="">Help and FAQs</a>
+              <a href="">Contact Us</a>
+            </div>
+            <div class="menu">
+              <p id="big">About this website</p>
+              <a href="">Terms and conditions</a>
+              <a href="">Accessibility</a>
+              <a href="">Privacy center</a>
+              <a href="">Website feedback</a>
+            </div>
+            <div class="menu">
+              <p id="big">Useful links</p>
+              <a href="">Store locator</a>
+              <a href="">My account</a>
+              <a href="">Product recall</a>
+              <a href="">Sitemap</a>
+            </div>
+            <div class="menu">
+              <p id="big">About Trendify Heaven</p>
+              <a href="">Work for Trendify Heaven</a>
+              <a href="">Trendify Heaven PLC</a>
+            </div>
+        </div>
+        <div class="subscribe">
+            <h5>Newsletter</h5>
+            <p>Signup to get recent news</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa, repellat, animi labore quam laborum commodi vel similique ab vero earum blanditiis laboriosam! Porro eum totam vitae deleniti sint modi!</p>
+            <div class="subscribe-box">
+                <input type="email" placeholder="Enter Email" id="email">
+                <input type="submit" value="Subscribe" id="submit">
+            </div>
+        </div>
+         
+      </footer>
+      <div class="copyright">
+        <p>&#169; Trendify Heaven 2024 All rights reserved</p> 
+      </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

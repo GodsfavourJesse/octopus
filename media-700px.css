@@ -1,0 +1,98 @@
+@media only screen and (max-width: 700px) {
+    header{
+        display: flex;
+    }
+    .main-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-nav .logo h2{
+        font-size: 40px;
+       letter-spacing: 5px;
+    }
+    .main-nav .logo h2 span{
+        border-radius: 10px;
+    }
+    nav{
+        height: 3rem;
+        display: flex;
+        margin-right: 3%;
+    }
+    nav .search-box{
+        width: 190px;
+    }
+    nav .search-box input{
+        width: 173px;
+    }
+    #category-icon{
+        display: flex;
+        position: absolute;
+        top: 18%;
+        left: 4.5%;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .container .category{
+        position: absolute;
+        display: block;
+        text-align: center;
+        backdrop-filter: blur(250px);
+        width: 280px;
+        left: -350px;
+        height: 417px;
+        border: 1px solid var(--color-deep);
+        border-radius: 10px;
+        transition: left .5s ease;
+    }
+    .container .category.open{
+        left: 25px;
+    }
+    .container .category.close{
+        left: -350px;
+    }
+    .container .hero-banner{
+        margin-left: 3px;
+        padding-left: 0;
+        width: 100%;
+    }
+    .container .hero-banner img{
+        width: 600px;
+    }
+    .new-product-cart, .featured-product-cart{
+        overflow: auto;
+    }
+    .new-product-cart::-webkit-scrollbar,
+    .featured-product-cart::-webkit-scrollbar{
+        width: 0;
+    }
+    footer{
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        padding: 20px 20px;
+        justify-content: space-around;
+    }
+    footer .menu-link{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 19rem;
+    }
+    footer .menu-link{
+        overflow: auto;
+    }
+    footer .menu-link .menu{
+        margin-bottom: 20px;
+    }
+    footer .menu-link::-webkit-scrollbar{
+        width: 0;
+    }
+    .copyright{
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+}
