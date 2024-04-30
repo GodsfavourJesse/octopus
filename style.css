@@ -29,6 +29,10 @@ html{
 body{
   background: var(--color-white);
 }
+.sticky-nav{
+  position: sticky;
+  top: 0;
+}
 header{
   display: flex;
   align-items: center;
@@ -188,7 +192,7 @@ header .top-nav a:hover{
 nav{
   background: var(--color-lock);
   height: 3rem;
-  margin: 15px 30px;
+  margin: 0 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
